@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/components/styles.css"],"names":[],"mappings":"AAAA,eACE,UAAW,CACX,WACF","file":"main.3aff4acb.chunk.css","sourcesContent":[".progress-icon {\n  width: 35px;\n  height: 35px;\n}\n"]}
