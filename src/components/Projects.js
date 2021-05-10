@@ -180,7 +180,7 @@ function Project() {
   function DataTabs({ data }) {
     return (
       <Tabs size="sm" isFitted variant="enclosed">
-        <TabList>
+        <TabList overflowX="auto">
           {data.map((tab, index) => (
             <Tab key={index} _hover={{ color: 'white', bg: 'blue.500' }}>
               {tab.label}
