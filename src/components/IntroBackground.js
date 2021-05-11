@@ -43,13 +43,13 @@ export default function IntroBackground() {
           }
         >
           <Stack maxW={'2xl'} align={'flex-start'} spacing={6}>
-            <Box mb={{ base: 8, md: 20 }}>
+            <Box>
               <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.8 }}>
                 <Heading
                   bgGradient="linear(to-l, teal.200,cyan.500,blue.500)"
                   bgClip="text"
                   mb={5}
-                  fontSize={{ base: '5xl', md: '6xl', lg: '7xl' }}
+                  fontSize={{ base: '4xl', md: '6xl', lg: '7xl' }}
                   fontWeight="extrabold"
                   textTransform={'uppercase'}
                 >
@@ -63,7 +63,7 @@ export default function IntroBackground() {
                   fontFamily={'heading'}
                   textTransform={'uppercase'}
                   mb={3}
-                  fontSize={{ base: '2xl', md: '3xl', lg: '4xl' }}
+                  fontSize={{ base: 'xl', md: '3xl', lg: '4xl' }}
                   fontWeight="extrabold"
                 >
                   I'm Alessandro
