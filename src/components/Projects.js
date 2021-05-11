@@ -11,6 +11,7 @@ import {
   TabPanels,
   TabPanel,
 } from '@chakra-ui/react';
+import { motion } from 'framer-motion';
 import ProjectCard from './ProjectCard';
 
 // container scales the entire project card size using maxW prop
@@ -36,17 +37,21 @@ export default function Projects() {
             py={{ base: 4, md: 20, xl: 20 }}
           >
             <Box mb={{ base: 8, md: 20 }}>
-              <Text
-                bgGradient="linear(to-l, teal.300,blue.500)"
-                bgClip="text"
-                mb={3}
-                fontSize="2xl"
-                fontWeight="extrabold"
-                textTransform={'uppercase'}
+              <motion.div
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.8 }}
               >
-                Projects
-              </Text>
-
+                <Text
+                  bgGradient="linear(to-l, teal.300,blue.500)"
+                  bgClip="text"
+                  mb={3}
+                  fontSize="2xl"
+                  fontWeight="extrabold"
+                  textTransform={'uppercase'}
+                >
+                  Projects
+                </Text>
+              </motion.div>
               <Container centerContent>
                 <Text
                   fontSize={'xl'}
