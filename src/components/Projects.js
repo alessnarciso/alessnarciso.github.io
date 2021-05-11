@@ -88,7 +88,7 @@ const projects = [
     id: 1,
     imageUrl: 'restaurater',
     imageAlt: 'App FrontEnd',
-    skills: ['ReactJS', 'NodeJS', 'MongoDB', 'Heroku', 'Microservices'],
+    skills: ['ReactJS', 'NodeJS', 'MongoDB', 'Heroku'],
     title: 'Restaurant Rater App',
     tabTitle: 'Restaurater',
     description:
@@ -112,7 +112,7 @@ const projects = [
 
     imageUrl: 'capstoneImage',
     imageAlt: 'Capstone Project',
-    skills: ['Python', 'TensorFlow', 'Keras', 'Numpy', 'Hardware'],
+    skills: ['Python', 'TensorFlow', 'Keras', 'Hardware'],
     title: 'Video Fall Detection Using DL',
     tabTitle: 'Fall Detection',
     description:
