@@ -1,4 +1,5 @@
 import React from 'react';
+import IntroBackground from '../components/IntroBackground';
 import Intro from '../components/Intro';
 import NavBar from '../components/NavBar';
 import Experience from '../components/Experience';
@@ -10,6 +11,7 @@ export default function Homepage() {
   return (
     <div>
       <NavBar />
+      <IntroBackground />
       <Intro />
       <Experience />
       <Skills />

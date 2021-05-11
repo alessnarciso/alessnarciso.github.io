@@ -31,21 +31,12 @@ export default function Intro() {
             py={{ base: 4, md: 20, xl: 40 }}
           >
             <Box mb={{ base: 8, md: 20 }}>
-              <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.8 }}>
+              <motion.div
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.8 }}
+              >
                 <Heading
-                  bgGradient="linear(to-l, teal.200,cyan.500,blue.500)"
-                  bgClip="text"
-                  mb={5}
-                  fontSize={{ base: '5xl', md: '6xl' }}
-                  fontWeight="extrabold"
-                  textTransform={'uppercase'}
-                >
-                  <Typical steps={['', 500, 'Hello World!', 1000]} />
-                </Heading>
-              </motion.div>
-              <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.8 }}>
-                <Heading
-                  bgGradient="linear(to-l, blue.400,blue.500)"
+                  bgGradient="linear(to-l, teal.300,blue.500)"
                   bgClip="text"
                   fontFamily={'heading'}
                   textTransform={'uppercase'}
@@ -53,7 +44,7 @@ export default function Intro() {
                   fontSize={'2xl'}
                   fontWeight="extrabold"
                 >
-                  I'm Alessandro
+                  About me
                 </Heading>
               </motion.div>
 
@@ -64,10 +55,11 @@ export default function Intro() {
                   marginInline={10}
                 >
                   I'm a software engineer and Engineer-In-Training in Vancouver
-                  who loves coding impactful projects to make the world a better
-                  place. I graduated from the University of British Columbia
-                  with a B.ASc in Electrical Engineering. I'm passionate about
-                  machine learning, medical technology, and economics.
+                  who loves building impactful projects to make the world a
+                  better place. I graduated from the University of British
+                  Columbia with a B.ASc in Electrical Engineering. I'm
+                  passionate about full stack development, machine learning,
+                  medical technology, and economics.
                 </Text>
               </Box>
             </Box>
