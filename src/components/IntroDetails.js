@@ -14,7 +14,7 @@ export default function IntroDetails() {
   return (
     <Box p={4}>
       <SimpleGrid
-        columns={{ base: 1, md: 1, lg: 1, xl: 3 }}
+        columns={{ base: 1, md: 1, lg: 2, xl: 3 }}
         spacing={10}
         marginLeft={4}
         marginRight={4}
@@ -43,14 +43,14 @@ export default function IntroDetails() {
           icon={FcCircuit}
           title={'Engineering'}
           text={
-            'Strong engineering design thinking having implemented engineering projects in an array of sectors including biotech, IoT, telecommunications, and robotics in agile and collaborative environments.'
+            'Strong engineering design and systems architecture thinking with implemented projects in an array of sectors including software, biotech, IoT, telecom, and robotics.'
           }
         />
         <FeatureCard
           icon={FcBullish}
           title={'Business & Leadership'}
           text={
-            'Proven leadership spearheading projects to exceed stakeholder objectives. History of developing solutions that save costs and generate revenue to benefit company bottom lines.'
+            'Proven leadership spearheading projects to exceed stakeholder objectives and developing solutions that optimize costs and revenue to benefit company bottom lines.'
           }
         />
 
@@ -58,7 +58,7 @@ export default function IntroDetails() {
           icon={FcBiotech}
           title={'Biotech'}
           text={
-            'Awarded as a global biotech leader by Global Biotech Revolution. Led 90+ students at UBC to develop 8+ biomedical projects collaborating with hospitals and medical organizations.'
+            'Awarded as a global biotech leader by Global Biotech Revolution. Led 90+ students at UBC to develop 8+ biomedical projects collaborating with medical organizations.'
           }
         />
       </SimpleGrid>
