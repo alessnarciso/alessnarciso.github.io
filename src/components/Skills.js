@@ -49,6 +49,7 @@ export default function StatsGridWithImage() {
                 <Text
                   fontSize={'xl'}
                   color={useColorModeValue('dark', 'light')}
+                  align={'left'}
                 >
                   I'm constantly exploring and learning new technologies. Here
                   are some of the skills I've picked up along the way.

@@ -53,6 +53,7 @@ export default function Intro() {
                   fontSize={'xl'}
                   color={useColorModeValue('dark', 'light')}
                   marginInline={10}
+                  align={'left'}
                 >
                   I'm a software engineer and Engineer-In-Training in Vancouver
                   who loves building impactful projects to make the world a

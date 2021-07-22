@@ -6,6 +6,7 @@ import {
   Image,
   useColorModeValue,
   Stack,
+  Text,
 } from '@chakra-ui/react';
 import { FaGithub } from 'react-icons/fa';
 import { ToolTipSocialButton } from './SocialButton';
@@ -63,7 +64,7 @@ export default function ProjectCard({ project }) {
           color={useColorModeValue('gray.800', 'white')}
           fontSize="sm"
         >
-          {project.description}
+          <Text align={'left'}>{project.description}</Text>
         </Box>
         <Container center centerContent>
           <Stack

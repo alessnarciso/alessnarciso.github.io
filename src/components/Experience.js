@@ -56,7 +56,7 @@ export default function Experience() {
 function Intro() {
   return (
     <Box mb={{ base: 8, md: 20 }}>
-      <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.8 }}>
+      <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.9 }}>
         <Text
           bgGradient="linear(to-l, teal.300,blue.500)"
           bgClip="text"
@@ -70,7 +70,11 @@ function Intro() {
       </motion.div>
 
       <Container centerContent>
-        <Text fontSize={'xl'} color={useColorModeValue('dark', 'light')}>
+        <Text
+          fontSize={'xl'}
+          color={useColorModeValue('dark', 'light')}
+          align={'left'}
+        >
           I have a strong background in software development and engineering.
           Here are some of exciting places I've worked.
         </Text>

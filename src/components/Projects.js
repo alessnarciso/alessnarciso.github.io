@@ -56,6 +56,7 @@ export default function Projects() {
                 <Text
                   fontSize={'xl'}
                   color={useColorModeValue('dark', 'light')}
+                  align={'left'}
                 >
                   I love working with emergent technologies to build awesome
                   stuff. Here are some projects I've had a lot of fun building.

@@ -10,7 +10,7 @@ import { motion } from 'framer-motion';
 
 const FeatureCard = ({ title, text, icon }) => {
   return (
-    <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.8 }}>
+    <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.9 }}>
       <Box
         p={8}
         shadow="xl"
@@ -45,11 +45,10 @@ const FeatureCard = ({ title, text, icon }) => {
           </Text>
 
           <Text
-            color={'gray.600'}
             color={useColorModeValue('dark', 'light')}
-            align="center"
             fontSize="md"
             noOfLines={{ base: 10, sm: 5, md: 5, lg: 5, xl: 6 }}
+            align={'left'}
           >
             {text}
           </Text>
